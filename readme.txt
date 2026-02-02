@@ -293,5 +293,3 @@ The frontend will run on `http://localhost:3000`
 2. CONFIRMED - Approved by admin
 3. COMPLETED - Customer arrived
 4. CANCELLED - Cancelled
-
-estions, please create an issue in the repository.
