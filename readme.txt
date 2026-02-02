@@ -294,48 +294,4 @@ The frontend will run on `http://localhost:3000`
 3. COMPLETED - Customer arrived
 4. CANCELLED - Cancelled
 
-## Troubleshooting
-
-### Common Issues
-
-1. **Database Connection Error**
-   - Verify MySQL is running
-   - Check credentials in `.env`
-   - Ensure database `restaurant_db` exists
-
-2. **Port Already in Use**
-   - Backend: Change PORT in `.env`
-   - Frontend: Set PORT in environment or kill process using port 3000
-
-3. **CORS Errors**
-   - Ensure backend is running
-   - Check CORS configuration in `server.js`
-
-4. **Image Upload Issues**
-   - Verify `uploads/` directory exists
-   - Check file permissions
-   - Ensure multer is installed
-
-5. **JWT Token Errors**
-   - Clear localStorage in browser
-   - Re-login to get new token
-   - Check JWT_SECRET in `.env`
-
-## Future Enhancements
-
-- Payment gateway integration
-- Email notifications
-- Real-time order tracking
-- Reviews and ratings
-- Delivery address management
-- Multi-restaurant support
-- Analytics dashboard
-- Mobile app version
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Support
-
-For issues and questions, please create an issue in the repository.
+estions, please create an issue in the repository.
